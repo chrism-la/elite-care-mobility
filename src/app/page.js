@@ -1,7 +1,11 @@
+import Hero from '../components/home/Hero';
+import AboutSection from '../components/home/AboutSection';
+
 export default function HomePage() {
     return (
         <main>
-            <h1>Elite Care Mobility</h1>
+            <Hero />
+            <AboutSection />
         </main>
     );
 }
