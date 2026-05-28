@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import Container from '../ui/Container';
+import { business } from '../../data/business';
 
 export default function Footer() {
     return (
@@ -7,8 +9,16 @@ export default function Footer() {
             <Container>
                 <div className="grid gap-8 md:grid-cols-3">
                     <div>
-                        <p className="text-lg font-bold text-[#12355B]">Elite Care Mobility</p>
-                        <p className="mt-3 max-w-sm text-sm leading-6 text-slate-600">
+                        <div className="flex items-center gap-3">
+                            <Image src={business.logo} alt="Elite Care Mobility logo" width={48} height={48} className="h-12 w-auto" />
+
+                            <div>
+                                <p className="text-lg font-bold text-[#12355B]">{business.name}</p>
+                                <p className="text-sm font-medium text-[#6B7280]">{business.tagline}</p>
+                            </div>
+                        </div>
+
+                        <p className="mt-4 max-w-sm text-sm leading-6 text-slate-600">
                             Safe, reliable, and accessible transportation for seniors, wheelchair users, and clients who need extra assistance.
                         </p>
                     </div>
@@ -24,12 +34,18 @@ export default function Footer() {
 
                     <div>
                         <p className="font-semibold text-slate-900">Contact</p>
-                        <p className="mt-3 text-sm text-slate-600">Phone: Coming soon</p>
-                        <p className="mt-1 text-sm text-slate-600">Email: Coming soon</p>
+                        <a href={business.phoneHref} className="mt-3 block text-sm font-semibold text-[#2563EB]">
+                            {business.phoneDisplay}
+                        </a>
+                        <a href={business.emailHref} className="mt-2 block break-all text-sm font-semibold text-[#2563EB]">
+                            {business.email}
+                        </a>
                     </div>
                 </div>
 
-                <p className="mt-10 text-sm text-slate-500">© {new Date().getFullYear()} Elite Care Mobility. All rights reserved.</p>
+                <p className="mt-10 text-sm text-slate-500">
+                    © {new Date().getFullYear()} {business.name}. All rights reserved.
+                </p>
             </Container>
         </footer>
     );

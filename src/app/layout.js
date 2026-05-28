@@ -1,6 +1,7 @@
 import './globals.css';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import StickyCallButton from '../components/layout/StickyCallButton';
 
 export const metadata = {
     title: 'Elite Care Mobility | Accessible Transportation Services',
@@ -10,10 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body>
+            <body className="pb-20 md:pb-0">
                 <Navbar />
                 {children}
                 <Footer />
+                <StickyCallButton />
             </body>
         </html>
     );

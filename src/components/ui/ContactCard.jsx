@@ -1,4 +1,5 @@
 import CTAButton from './CTAButton';
+import { business } from '../../data/business';
 
 export default function ContactCard({ className = '' }) {
     return (
@@ -12,15 +13,15 @@ export default function ContactCard({ className = '' }) {
             <div className="mt-6 space-y-4">
                 <div>
                     <p className="text-sm font-semibold text-[#1F2937]">Phone</p>
-                    <a href="tel:+10000000000" className="mt-1 inline-block text-lg font-semibold text-[#2563EB] hover:text-[#12355B]">
-                        Coming soon
+                    <a href={business.phoneHref} className="mt-1 inline-block text-lg font-semibold text-[#2563EB] hover:text-[#12355B]">
+                        {business.phoneDisplay}
                     </a>
                 </div>
 
                 <div>
                     <p className="text-sm font-semibold text-[#1F2937]">Email</p>
-                    <a href="mailto:info@example.com" className="mt-1 inline-block break-all text-[#2563EB] hover:text-[#12355B]">
-                        Coming soon
+                    <a href={business.emailHref} className="mt-1 inline-block break-all text-[#2563EB] hover:text-[#12355B]">
+                        {business.email}
                     </a>
                 </div>
             </div>
