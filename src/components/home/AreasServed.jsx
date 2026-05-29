@@ -8,7 +8,7 @@ export default function AreasServed() {
     return (
         <section className="bg-white py-16 sm:py-20 lg:py-24">
             <Container>
-                <div className="overflow-hidden rounded-4xl border border-[#E5E7EB] bg-white shadow-sm">
+                <div className="overflow-hidden rounded-[2rem] border border-[#E5E7EB] bg-white shadow-sm">
                     <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
                         <div className="bg-[#12355B] p-8 text-white sm:p-10 lg:p-12">
                             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-[#F97316]">

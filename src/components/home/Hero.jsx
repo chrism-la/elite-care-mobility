@@ -2,7 +2,6 @@ import { ShieldCheck, Clock, HeartHandshake } from 'lucide-react';
 import Container from '../ui/Container';
 import CTAButton from '../ui/CTAButton';
 import ContactCard from '../ui/ContactCard';
-import { business } from '../../data/business';
 
 const trustItems = [
     {
@@ -32,14 +31,16 @@ export default function Hero() {
                             Non-emergency medical and mobility transportation
                         </div>
 
-                        <h1 className="text-4xl font-semibold tracking-tight text-[#12355B] sm:text-5xl lg:text-6xl">Reliable Transportation for Clients Who Need Extra Care</h1>
+                        <h1 className="text-4xl font-semibold tracking-tight text-[#12355B] sm:text-5xl lg:text-6xl">
+                            Mobility You Can <span className="font-extrabold text-[#F97316]">Trust</span>
+                            <br />
+                            <span className="font-extrabold text-[#F97316]">Care</span> You Deserve
+                        </h1>
 
                         <p className="mt-6 max-w-2xl text-lg leading-8 text-[#6B7280]">
                             Elite Care Mobility provides safe, professional transportation for seniors, wheelchair users, post-surgery clients, and individuals who need assistance getting where they
                             need to go.
                         </p>
-
-                        <p className="mt-6 text-xl font-semibold leading-snug text-[#12355B] sm:text-2xl">{business.tagline}</p>
 
                         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                             <CTAButton href="/contact">Request a Ride</CTAButton>
