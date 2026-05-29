@@ -23,8 +23,6 @@ export default function AreasServed() {
                         </div>
 
                         <div className="bg-white p-8 sm:p-10 lg:p-12 xl:p-14">
-                            <p className="text-sm font-semibold uppercase tracking-wide text-[#F97316]">Areas Served</p>
-
                             <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                                 {areas.map((area) => (
                                     <div key={area} className="rounded-2xl border border-[#E5E7EB] bg-[#EFF6FF]/60 px-5 py-4 text-base font-semibold text-[#12355B]">
@@ -33,7 +31,7 @@ export default function AreasServed() {
                                 ))}
                             </div>
 
-                            <p className="mt-6 text-sm leading-6 text-[#6B7280]">Service availability may vary by schedule, pickup location, and destination. Please contact us to confirm details.</p>
+                            <p className="mt-14 text-mdleading-6 text-[#6B7280]">Service availability may vary by schedule, pickup location, and destination. Please contact us to confirm details.</p>
                         </div>
                     </div>
                 </div>

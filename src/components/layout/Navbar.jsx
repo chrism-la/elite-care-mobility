@@ -52,6 +52,13 @@ export default function Navbar() {
                                 </Link>
                             );
                         })}
+
+                        <Link
+                            href="/contact"
+                            className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#2563EB] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#12355B]"
+                        >
+                            Get Started
+                        </Link>
                     </div>
 
                     <button

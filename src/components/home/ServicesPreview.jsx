@@ -8,7 +8,7 @@ const icons = [Accessibility, Footprints, HeartPulse, Hospital, MapPinned];
 
 export default function ServicesPreview() {
     return (
-        <section className="bg-[#EFF6FF]/60 py-16 sm:py-20 lg:py-24">
+        <section className="bg-[#EFF6FF]/60 pt-4 sm:pt-6 lg:pt-8 pb-12 sm:pb-16 lg:pb-20">
             <Container size="wide">
                 <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
                     <div>
@@ -44,10 +44,6 @@ export default function ServicesPreview() {
                                 <h3 className="mt-5 text-xl font-semibold text-[#12355B]">{service.title}</h3>
 
                                 <p className="mt-4 leading-7 text-[#6B7280]">{service.description}</p>
-
-                                <Link href="/services" className="mt-6 inline-flex min-h-11 items-center font-semibold text-[#2563EB] hover:text-[#12355B]">
-                                    Learn more
-                                </Link>
                             </div>
                         );
                     })}
