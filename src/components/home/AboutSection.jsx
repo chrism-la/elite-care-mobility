@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 import Container from '../ui/Container';
 
@@ -10,25 +11,24 @@ const points = [
 export default function AboutSection() {
     return (
         <section className="bg-white py-16 sm:py-20 lg:py-24">
-            <Container>
-                <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-                    <div className="rounded-4xl bg-[#12355B] p-8 text-white sm:p-10">
-                        <p className="text-sm font-semibold uppercase tracking-wide text-[#F97316]">Built Around Care</p>
+            <Container size="wide">
+                <div className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:items-center">
+                    <div className="relative min-h-105 overflow-hidden rounded-4xl">
+                        <Image src="/wheelchair-van.jpg" alt="Passenger using wheelchair-accessible transportation" fill className="object-cover" />
 
-                        <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Transportation that gives families more confidence</h2>
-
-                        <p className="mt-5 leading-8 text-blue-100">
-                            We understand that getting to an appointment, returning home from a procedure, or arranging transportation for a loved one can feel stressful. Elite Care Mobility is built
-                            to make that process easier, safer, and more dependable.
-                        </p>
+                        <div className="absolute inset-0 bg-linear-to-t from-[#12355B]/20 to-transparent" />
                     </div>
 
                     <div>
-                        <h3 className="text-2xl font-semibold tracking-tight text-[#12355B] sm:text-3xl">More than a ride from point A to point B.</h3>
+                        <h2 className="text-3xl font-semibold tracking-tight text-[#12355B] sm:text-4xl">Transportation Designed Around Safety, Comfort, and Independence</h2>
 
                         <p className="mt-5 leading-8 text-[#6B7280]">
-                            Our service is designed for clients who need transportation with patience, accessibility awareness, and a higher level of attention than a standard rideshare or taxi
-                            service.
+                            Getting to appointments, returning home after a procedure, or maintaining everyday independence should not be stressful. Elite Care Mobility provides dependable
+                            transportation with a focus on accessibility, communication, and respectful assistance.
+                        </p>
+
+                        <p className="mt-5 leading-8 text-[#6B7280]">
+                            Our goal is to help clients and families feel confident knowing transportation is being handled safely, professionally, and with genuine care.
                         </p>
 
                         <div className="mt-8 space-y-5">
