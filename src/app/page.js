@@ -9,8 +9,8 @@ export default function HomePage() {
         <main>
             <Hero />
             <AboutSection />
-            <ServicesPreview />
             <AreasServed />
+            <ServicesPreview />
             <HomeCTA />
         </main>
     );

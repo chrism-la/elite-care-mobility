@@ -45,13 +45,6 @@ export default function Hero() {
                             need to go.
                         </p>
 
-                        <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                            <CTAButton href="/contact">Request a Ride</CTAButton>
-                            <CTAButton href="/services" variant="secondary">
-                                View Services
-                            </CTAButton>
-                        </div>
-
                         <div className="mt-10 grid gap-4 sm:grid-cols-3">
                             {trustItems.map((item) => {
                                 const Icon = item.icon;
