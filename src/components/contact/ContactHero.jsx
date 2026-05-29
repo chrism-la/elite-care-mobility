@@ -6,7 +6,7 @@ export default function ContactHero() {
             <div className="absolute -left-20 top-0 h-80 w-80 rounded-full bg-[#FED7AA] blur-3xl" />
             <div className="absolute right-0 top-10 h-72 w-72 rounded-full bg-[#BFDBFE] blur-3xl" />
             <Container size="wide">
-                <div className="relative pb-10 sm:pb-12 lg:pb-14">
+                <div className="relative pb-6 sm:pb-8 lg:pb-10">
                     <div className="max-w-5xl">
                         <h1 className="text-4xl font-semibold leading-tight tracking-tight text-[#12355B] sm:text-5xl lg:text-6xl">Let’s get the ride details clear.</h1>
 

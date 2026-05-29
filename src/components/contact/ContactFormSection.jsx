@@ -72,7 +72,7 @@ export default function ContactFormSection() {
     }
 
     return (
-        <section className="bg-white py-16 sm:py-20 lg:py-24">
+        <section className="bg-white pb-16 pt-0 sm:pb-20 lg:pb-24">
             <Container size="wide">
                 <div className="grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
                     <div>
