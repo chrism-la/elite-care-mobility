@@ -9,13 +9,10 @@ export default function Footer() {
             <Container>
                 <div className="grid gap-8 md:grid-cols-3">
                     <div>
-                        <div className="flex items-center gap-3">
-                            <Image src={business.logo} alt="Elite Care Mobility logo" width={48} height={48} className="h-12 w-auto" />
+                        <div>
+                            <Image src={business.logo} alt="Elite Care Mobility logo" width={260} height={170} className="h-24 w-auto object-contain" />
 
-                            <div>
-                                <p className="text-lg font-bold text-[#12355B]">{business.name}</p>
-                                <p className="text-sm font-medium text-[#6B7280]">{business.tagline}</p>
-                            </div>
+                            <p className="mt-4 text-base font-semibold leading-7 text-[#12355B]">{business.tagline}</p>
                         </div>
 
                         <p className="mt-4 max-w-sm text-sm leading-6 text-slate-600">

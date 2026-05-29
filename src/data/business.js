@@ -5,5 +5,6 @@ export const business = {
     phoneHref: 'tel:+18004706801',
     email: 'info@elitecaremobility.com',
     emailHref: 'mailto:info@elitecaremobility.com',
-    logo: '/elitecarelogo.png',
+    logo: '/elitecarelogo-.png',
+    logoMark: '/elitecarelogo-mark.png',
 };

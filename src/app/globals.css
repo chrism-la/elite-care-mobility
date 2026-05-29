@@ -28,3 +28,7 @@ textarea,
 select {
   outline-color: var(--blue);
 }
+
+.font-brand {
+  font-family: var(--font-montserrat), Arial, sans-serif;
+}

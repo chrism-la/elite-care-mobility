@@ -20,16 +20,21 @@ export default function Navbar() {
     return (
         <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
             <Container>
-                <nav className="flex h-20 items-center justify-between">
-                    <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)} aria-label="Elite Care Mobility home">
-                        <Image src={business.logo} alt="Elite Care Mobility logo" width={48} height={48} priority className="h-12 w-auto" />
+                <nav className="flex h-24 items-center justify-between sm:h-28">
+                    <Link href="/" className="flex items-center gap-4" onClick={() => setOpen(false)} aria-label="Elite Care Mobility home">
+                        <Image src={business.logoMark} alt="Elite Care Mobility" width={72} height={72} priority className="h-18 w-18 object-contain" />
+                        <div className="hidden sm:flex flex-col items-center leading-none">
+                            <span className="font-brand text-[1.75rem] font-extrabold uppercase tracking-[0.03em] text-[#12355B]">ELITE CARE</span>
 
-                        <div className="hidden sm:block">
-                            <p className="text-base font-bold leading-tight tracking-tight text-[#12355B]">{business.name}</p>
-                            <p className="text-xs font-medium text-[#6B7280]">{business.tagline}</p>
+                            <div className="mt-1 flex items-center justify-center">
+                                <div className="mr-3 h-0.5 w-5 bg-[#F97316]" />
+
+                                <span className="font-brand text-[1.15rem] font-bold uppercase tracking-[0.22em] text-[#F97316]">MOBILITY</span>
+
+                                <div className="ml-3 h-0.5 w-5 bg-[#F97316]" />
+                            </div>
                         </div>
                     </Link>
-
                     <div className="hidden items-center gap-8 md:flex">
                         {navLinks.map((link) => {
                             const active = pathname === link.href;

@@ -16,6 +16,11 @@ export default function Hero() {
                             Elite Care Mobility provides safe, professional, and dependable transportation for seniors, wheelchair users, post-surgery clients, and individuals who need assistance
                             getting where they need to go.
                         </p>
+                        <p className="mt-6 text-xl font-semibold leading-snug text-[#12355B] sm:text-2xl">
+                            Mobility You Can Trust.
+                            <br />
+                            Care You Deserve.
+                        </p>
 
                         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                             <CTAButton href="/contact">Request a Ride</CTAButton>
