@@ -23,9 +23,12 @@ const trustItems = [
 
 export default function Hero() {
     return (
-        <section className="relative overflow-hidden bg-linear-to-br from-[#EFF6FF] via-white to-[#FFF7ED] py-16 sm:py-20 lg:py-24">
+        <section className="relative overflow-hidden bg-white py-16 sm:py-20 lg:py-24">
+            <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-[#DBEAFE] blur-3xl" />
+            <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-[#FFEDD5] blur-3xl" />
+
             <Container size="wide">
-                <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+                <div className="relative grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
                     <div className="max-w-3xl">
                         <div className="mb-6 inline-flex rounded-full border border-[#E5E7EB] bg-white px-4 py-2 text-sm font-semibold text-[#12355B] shadow-sm">
                             Non-emergency medical and mobility transportation
