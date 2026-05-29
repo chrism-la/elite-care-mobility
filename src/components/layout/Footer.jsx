@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Container from '../ui/Container';
 import { business } from '../../data/business';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -40,9 +41,22 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p className="mt-10 text-sm text-slate-500">
-                    © {new Date().getFullYear()} {business.name}. All rights reserved.
-                </p>
+                <div className="mt-10 border-t border-[#E5E7EB] pt-6">
+                    <div className="flex flex-col gap-4 text-sm text-[#6B7280] sm:flex-row sm:items-center sm:justify-between">
+                        <p>© {new Date().getFullYear()} Elite Care Mobility. All rights reserved.</p>
+
+                        <a
+                            href="https://www.linkedin.com/in/chrism-la"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 transition hover:text-[#12355B]"
+                            aria-label="Christopher Morales LinkedIn"
+                        >
+                            <FaLinkedin className="text-[15px]" />
+                            <span>Designed & Developed by Christopher Morales</span>
+                        </a>
+                    </div>
+                </div>
             </Container>
         </footer>
     );
