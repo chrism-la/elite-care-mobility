@@ -9,13 +9,7 @@ export default function ServiceList() {
     return (
         <section className="bg-white py-16 sm:py-20 lg:py-24">
             <Container size="wide">
-                <div className="mx-auto max-w-4xl text-center">
-                    <h2 className="text-3xl font-semibold tracking-tight text-[#12355B] sm:text-4xl">Services designed for comfort, access, and peace of mind</h2>
-
-                    <p className="mt-5 text-lg leading-8 text-[#6B7280]">Each service is built around safe transport, clear communication, and respectful assistance for clients and families.</p>
-                </div>
-
-                <div className="mt-14 space-y-6">
+                <div className="space-y-6">
                     {services.map((service, index) => {
                         const Icon = icons[index];
                         const reverse = index % 2 !== 0;
@@ -41,12 +35,6 @@ export default function ServiceList() {
                                     <h3 className="mt-3 text-2xl font-semibold tracking-tight text-[#12355B] sm:text-3xl">{service.title}</h3>
 
                                     <p className="mt-4 max-w-3xl leading-8 text-[#6B7280]">{service.description}</p>
-
-                                    <div className="mt-6">
-                                        <CTAButton href="/contact" variant="secondary">
-                                            Ask About This Service
-                                        </CTAButton>
-                                    </div>
                                 </div>
                             </article>
                         );

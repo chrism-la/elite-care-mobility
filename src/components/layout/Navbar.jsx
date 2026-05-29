@@ -55,7 +55,7 @@ export default function Navbar() {
                             href="/contact"
                             className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#2563EB] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#12355B]"
                         >
-                            Request a Ride
+                            Get Started
                         </Link>
                     </div>
 
