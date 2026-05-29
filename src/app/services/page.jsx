@@ -1,7 +1,6 @@
 import ServicesHero from '../../components/services/ServicesHero';
 import ServiceList from '../../components/services/ServiceList';
 import WhoWeHelp from '../../components/services/WhoWeHelp';
-import HomeCTA from '../../components/home/HomeCTA';
 
 export const metadata = {
     title: 'Services | Elite Care Mobility',
@@ -15,7 +14,6 @@ export default function ServicesPage() {
             <ServicesHero />
             <ServiceList />
             <WhoWeHelp />
-            <HomeCTA />
         </main>
     );
 }
