@@ -13,7 +13,7 @@ export async function POST(request) {
         }
 
         const { data, error } = await resend.emails.send({
-            from: 'Elite Care Mobility <onboarding@resend.dev>',
+            from: 'Elite Care Mobility <info@elitecaremobility.com>',
             to: [process.env.CONTACT_TO_EMAIL],
             subject: `New Transportation Request from ${name}`,
             replyTo: email,
