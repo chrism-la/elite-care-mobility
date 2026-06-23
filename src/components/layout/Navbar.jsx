@@ -30,11 +30,11 @@ export default function Navbar() {
                             <span className="font-brand text-[1.75rem] font-extrabold uppercase tracking-[0.03em] text-[#12355B]">ELITE CARE</span>
 
                             <div className="mt-1 flex items-center justify-center">
-                                <div className="mr-3 h-0.5 w-5 bg-[#F97316]" />
+                                <div className="mr-3 h-0.5 w-5 bg-[#FCAC2C]" />
 
-                                <span className="font-brand text-[1.15rem] font-bold uppercase tracking-[0.22em] text-[#F97316]">MOBILITY</span>
+                                <span className="font-brand text-[1.15rem] font-bold uppercase tracking-[0.22em] text-[#FCAC2C]">MOBILITY</span>
 
-                                <div className="ml-3 h-0.5 w-5 bg-[#F97316]" />
+                                <div className="ml-3 h-0.5 w-5 bg-[#FCAC2C]" />
                             </div>
                         </div>
                     </Link>

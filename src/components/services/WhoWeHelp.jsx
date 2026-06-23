@@ -16,7 +16,7 @@ export default function WhoWeHelp() {
             <Container size="wide">
                 <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
                     <div className="rounded-4xl bg-[#12355B] p-8 text-white sm:p-10 lg:p-12">
-                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-[#F97316]">
+                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-(--orange)">
                             <UsersRound size={28} />
                         </div>
 
@@ -30,7 +30,7 @@ export default function WhoWeHelp() {
                     <div className="max-w-xl justify-self-end space-y-5">
                         {groups.map((group) => (
                             <div key={group} className="flex gap-4">
-                                <CheckCircle2 className="mt-1 shrink-0 text-[#F97316]" size={23} />
+                                <CheckCircle2 className="mt-1 shrink-0 text-(--orange)" size={23} />
 
                                 <p className="text-lg font-semibold leading-7 text-[#12355B]">{group}</p>
                             </div>

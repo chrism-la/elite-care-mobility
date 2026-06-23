@@ -11,7 +11,7 @@ export default function ServicesPreview() {
             <Container size="wide">
                 <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
                     <div>
-                        <p className="text-sm font-semibold uppercase tracking-wide text-[#F97316]">Services</p>
+                        <p className="text-sm font-semibold uppercase tracking-wide text-(--orange)">Services</p>
 
                         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#12355B] sm:text-4xl">Safe and Reliable Transportation for Every Stage of Care</h2>
                     </div>

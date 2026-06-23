@@ -7,8 +7,6 @@ export default function ServicesHero() {
             <Container size="wide">
                 <div className="grid gap-10 lg:grid-cols-[1fr_0.9fr] lg:items-center">
                     <div className="max-w-4xl">
-                        <p className="mb-5 inline-flex rounded-full border border-[#E5E7EB] bg-white px-4 py-2 text-sm font-semibold text-[#12355B] shadow-sm">Accessible Transportation Services</p>
-
                         <h1 className="text-4xl font-semibold tracking-tight text-[#12355B] sm:text-5xl lg:text-6xl">
                             {' '}
                             Transportation Solutions for medical appointments, recovery and daily mobility.

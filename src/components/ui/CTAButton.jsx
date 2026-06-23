@@ -4,7 +4,7 @@ export default function CTAButton({ href, children, variant = 'primary', classNa
     const variants = {
         primary: 'bg-[#2563EB] text-white hover:bg-[#12355B] focus-visible:ring-[#2563EB]',
         secondary: 'border border-[#E5E7EB] bg-white text-[#12355B] hover:border-[#2563EB] hover:text-[#2563EB] focus-visible:ring-[#2563EB]',
-        orange: 'bg-[#F97316] text-white hover:bg-orange-600 focus-visible:ring-[#F97316]',
+        orange: 'bg-(--orange) text-white hover:bg-orange-600 focus-visible:ring-(--orange)',
     };
 
     return (

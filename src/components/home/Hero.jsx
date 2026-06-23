@@ -1,6 +1,5 @@
 import { ShieldCheck, Clock, HeartHandshake } from 'lucide-react';
 import Container from '../ui/Container';
-import CTAButton from '../ui/CTAButton';
 import ContactCard from '../ui/ContactCard';
 
 const trustItems = [
@@ -31,9 +30,9 @@ export default function Hero() {
                 <div className="relative grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
                     <div className="max-w-3xl">
                         <h1 className="text-4xl font-semibold tracking-tight text-[#12355B] sm:text-5xl lg:text-6xl">
-                            Mobility You Can <span className="font-extrabold text-[#F97316]">Trust.</span>
+                            Mobility You Can <span className="font-extrabold text-(--orange)">Trust.</span>
                             <br />
-                            <span className="font-extrabold text-[#F97316]">Care</span> You Deserve.
+                            <span className="font-extrabold text-(--orange)">Care</span> You Deserve.
                         </h1>
 
                         <p className="mt-6 max-w-2xl text-lg font-semibold leading-8 text-[#12355B] md:text-xl">

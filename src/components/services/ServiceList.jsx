@@ -29,7 +29,7 @@ export default function ServiceList() {
                                 </div>
 
                                 <div className={`${reverse ? 'lg:order-1' : ''}`}>
-                                    <p className="text-sm font-semibold uppercase tracking-wide text-[#F97316]">Service {index + 1}</p>
+                                    <p className="text-sm font-semibold uppercase tracking-wide text-(--orange)">Service {index + 1}</p>
 
                                     <h3 className="mt-3 text-2xl font-semibold tracking-tight text-[#12355B] sm:text-3xl">{service.title}</h3>
 

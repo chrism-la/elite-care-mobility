@@ -119,7 +119,7 @@ export default function ContactFormSection() {
                                         <option>Ambulatory Transportation</option>
                                         <option>Post-Surgery Transportation</option>
                                         <option>Hospital Discharge Transportation</option>
-                                        <option>Non-Medical Transportation</option>
+                                        <option>Community Services</option>
                                     </select>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@ export default function ContactFormSection() {
                                     id="message"
                                     name="message"
                                     rows="6"
-                                    placeholder="Provide any additional transportation details..."
+                                    placeholder="Please include destination, appointment, date/time, and mobility needs or any special accommodations..."
                                     className="w-full rounded-2xl border border-[#E5E7EB] bg-white px-4 py-4 text-base text-[#1F2937] outline-none transition focus:border-[#2563EB] focus:ring-4 focus:ring-[#DBEAFE]"
                                 />
                             </div>
@@ -161,7 +161,7 @@ export default function ContactFormSection() {
                     </div>
 
                     <aside className="lg:sticky lg:top-32">
-                        <div className="border-l-4 border-[#F97316] bg-[#EFF6FF]/70 p-6 sm:p-8">
+                        <div className="border-l-4 border-(--orange) bg-[#EFF6FF]/70 p-6 sm:p-8">
                             <h3 className="text-2xl font-semibold tracking-tight text-[#12355B]">What happens next?</h3>
 
                             <div className="mt-6 space-y-6">
@@ -202,7 +202,7 @@ export default function ContactFormSection() {
 
                         <div className="mt-8 space-y-5">
                             <a href={business.phoneHref} className="flex items-start gap-4 border-b border-[#E5E7EB] pb-5">
-                                <Phone className="mt-1 shrink-0 text-[#F97316]" size={22} />
+                                <Phone className="mt-1 shrink-0 text-(--orange)" size={22} />
                                 <div>
                                     <p className="font-semibold text-[#12355B]">Phone</p>
                                     <p className="mt-1 text-[#6B7280]">{business.phoneDisplay}</p>
@@ -210,7 +210,7 @@ export default function ContactFormSection() {
                             </a>
 
                             <a href={business.emailHref} className="flex items-start gap-4 border-b border-[#E5E7EB] pb-5">
-                                <Mail className="mt-1 shrink-0 text-[#F97316]" size={22} />
+                                <Mail className="mt-1 shrink-0 text-(--orange)" size={22} />
                                 <div>
                                     <p className="font-semibold text-[#12355B]">Email</p>
                                     <p className="mt-1 break-all text-[#6B7280]">{business.email}</p>
@@ -218,10 +218,10 @@ export default function ContactFormSection() {
                             </a>
 
                             <div className="flex items-start gap-4">
-                                <MapPin className="mt-1 shrink-0 text-[#F97316]" size={22} />
+                                <MapPin className="mt-1 shrink-0 text-(--orange)" size={22} />
                                 <div>
                                     <p className="font-semibold text-[#12355B]">Service Area</p>
-                                    <p className="mt-1 text-[#6B7280]">Local accessible transportation. Contact us to confirm your pickup and destination.</p>
+                                    <p className="mt-1 text-[#6B7280]">Serving Los Angeles county and surrounding communities contact us to confirm pick and destination availability.</p>
                                 </div>
                             </div>
                         </div>

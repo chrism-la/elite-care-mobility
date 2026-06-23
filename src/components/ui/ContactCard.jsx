@@ -4,7 +4,7 @@ import { business } from '../../data/business';
 export default function ContactCard({ className = '' }) {
     return (
         <div className={`rounded-3xl border border-[#E5E7EB] bg-white p-6 shadow-sm sm:p-8 ${className}`}>
-            <p className="text-sm font-semibold uppercase tracking-wide text-[#F97316]">Contact</p>
+            <p className="text-sm font-semibold uppercase tracking-wide text-(--orange)">Contact</p>
 
             <h3 className="mt-3 text-2xl font-semibold tracking-tight text-[#12355B]">Speak with Elite Care Mobility</h3>
 

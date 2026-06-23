@@ -19,11 +19,11 @@ export default function AreasServed() {
                 <div className="overflow-hidden rounded-4xl border border-[#E5E7EB] bg-white shadow-sm">
                     <div className="grid lg:grid-cols-[0.85fr_1.15fr]">
                         <div className="flex flex-col justify-center bg-[#12355B] p-8 text-white sm:p-10 lg:p-12 xl:p-14">
-                            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-[#F97316]">
+                            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-(--orange)">
                                 <MapPin size={28} />
                             </div>
 
-                            <h2 className="mt-6 text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl">Serving Los Angeles County and surrounding communities.</h2>
+                            <h2 className="mt-6 text-3xl font-semibold sm:text-4xl lg:text-5xl">Serving Los Angeles County and surrounding communities.</h2>
 
                             <p className="mt-5 max-w-2xl leading-8 text-blue-100">
                                 Elite Care Mobility provides safe, accessible transportation throughout Los Angeles County and neighboring communities.
@@ -34,7 +34,7 @@ export default function AreasServed() {
                             <div className="grid gap-6 md:grid-cols-2">
                                 {areaGroups.map((group) => (
                                     <div key={group.title} className="rounded-3xl border border-[#E5E7EB] bg-[#EFF6FF]/50 p-6">
-                                        <h3 className="text-xl font-semibold text-[#12355B]">{group.title}</h3>
+                                        <h3 className="text-xl font-bold text-[#e78f00]">{group.title}</h3>
 
                                         <div className="mt-5 grid gap-3">
                                             {group.areas.map((area) => (

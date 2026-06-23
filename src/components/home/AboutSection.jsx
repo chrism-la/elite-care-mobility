@@ -32,7 +32,7 @@ export default function AboutSection() {
                         <div className="mt-8 space-y-5">
                             {points.map((point) => (
                                 <div key={point} className="flex gap-4">
-                                    <CheckCircle2 className="mt-1 shrink-0 text-[#F97316]" size={24} strokeWidth={2.3} />
+                                    <CheckCircle2 className="mt-1 shrink-0 text-(--orange)" size={24} strokeWidth={2.3} />
 
                                     <p className="leading-7 text-[#1F2937]">{point}</p>
                                 </div>
