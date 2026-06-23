@@ -1,26 +1,29 @@
 export const services = [
     {
         title: 'Wheelchair Transportation',
-        description: 'Safe, accessible transportation for clients who use wheelchairs and need dependable assistance getting to and from appointments or daily destinations.',
+        description:
+            'Safe and accessible transportation for individuals who use wheelchairs and require dependable assistance traveling to medical appointments, hospital discharges and daily destinations.',
     },
     {
         title: 'Dialysis Transportation',
-        description: 'Reliable recurring transportation for patients attending scheduled dialysis treatments.',
+        description: 'Reliable reocurring transportation for patients attending scheduled dialysis treatments and ongoing medical care.',
     },
     {
         title: 'Ambulatory Transportation',
-        description: 'Reliable transportation for clients who can walk independently or with light assistance but still need extra support and care during travel.',
+        description:
+            'Reliable transportation for individuals who can walk independently or with minimal assistance and need dependable travel to medical appointments, therapies, treatments and every day destinations.',
     },
     {
         title: 'Post-Surgery Transportation',
-        description: 'Comfortable transportation after outpatient procedures, follow-up appointments, or recovery-related visits when driving is not recommended.',
+        description: 'Comfortable transportation after outpatient procedures, follow-up appointments, and recovery-related visits when driving is not recommended.',
     },
     {
         title: 'Hospital Discharge Transportation',
-        description: 'Dependable transportation from hospitals or care facilities to home, helping clients and families manage discharge day with less stress.',
+        description:
+            'Safe and dependable transportation from hospitals, rehabilitation centers and care facilities to home.Helping individuals and families navigate discharge day with confidence and peace of mind ',
     },
     {
         title: 'Community Transportation',
-        description: 'Safe and reliable transportation for errands, family visits, community activities, senior centers, wellness programs and other non medical mobility needs.',
+        description: 'Transportation for errands family visits community activities wellness programs senior centers and other non medical needs.',
     },
 ];

@@ -1,8 +1,8 @@
-import { Accessibility, Footprints, HeartPulse, Hospital, MapPinned } from 'lucide-react';
+import { Accessibility, Droplets, Footprints, HeartPulse, Hospital, MapPinned } from 'lucide-react';
 import Container from '../ui/Container';
 import { services } from '../../data/services';
 
-const icons = [Accessibility, Footprints, HeartPulse, Hospital, MapPinned];
+const icons = [Accessibility, Droplets, Footprints, HeartPulse, Hospital, MapPinned];
 
 export default function ServiceList() {
     return (

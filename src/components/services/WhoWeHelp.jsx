@@ -2,12 +2,12 @@ import { CheckCircle2, UsersRound } from 'lucide-react';
 import Container from '../ui/Container';
 
 const groups = [
-    'Seniors needing reliable transportation',
-    'Wheelchair users',
-    'Clients recovering from procedures',
-    'Families coordinating care',
-    'Patients leaving hospitals or care facilities',
-    'Individuals needing non-emergency mobility support',
+    'Individual needing non emergency mobility support',
+    'Wheelchair user and mobility impaired individuals',
+    'Patients recovering from procedures or surgery',
+    'Patients leaving hospitals rehabilitation centers or care facilities',
+    'Families and caregivers coordinating transportation',
+    'Seniors seeking safe and dependable transportation',
 ];
 
 export default function WhoWeHelp() {
@@ -20,9 +20,11 @@ export default function WhoWeHelp() {
                             <UsersRound size={28} />
                         </div>
 
-                        <h2 className="mt-6 text-3xl font-semibold tracking-tight sm:text-4xl">Supportive transportation for clients and families</h2>
+                        <h2 className="mt-6 text-3xl font-semibold tracking-tight sm:text-4xl text-[#fadfcc]">WHO WE SERVE</h2>
 
-                        <p className="mt-5 leading-8 text-blue-100">Our services are designed for people who need transportation that is more careful, patient, and dependable than a standard ride.</p>
+                        <p className="mt-5 leading-8 text-blue-100">
+                            Our services are designed for individuals who need safe and dependable transportation delivered with professionalism patience and care.
+                        </p>
                     </div>
 
                     <div className="max-w-xl justify-self-end space-y-5">

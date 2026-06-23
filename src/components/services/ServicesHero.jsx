@@ -1,6 +1,5 @@
 import { Accessibility, CarFront, HeartPulse } from 'lucide-react';
 import Container from '../ui/Container';
-import CTAButton from '../ui/CTAButton';
 
 export default function ServicesHero() {
     return (
@@ -10,18 +9,22 @@ export default function ServicesHero() {
                     <div className="max-w-4xl">
                         <p className="mb-5 inline-flex rounded-full border border-[#E5E7EB] bg-white px-4 py-2 text-sm font-semibold text-[#12355B] shadow-sm">Accessible Transportation Services</p>
 
-                        <h1 className="text-4xl font-semibold tracking-tight text-[#12355B] sm:text-5xl lg:text-6xl">Transportation support for medical visits, recovery, and everyday mobility</h1>
+                        <h1 className="text-4xl font-semibold tracking-tight text-[#12355B] sm:text-5xl lg:text-6xl">
+                            {' '}
+                            Transportation Solutions for medical appointments, recovery and daily mobility.
+                        </h1>
 
                         <p className="mt-6 max-w-3xl text-lg leading-8 text-[#6B7280]">
-                            Elite Care Mobility provides dependable non-emergency transportation for clients who need a safer, more supportive option than a standard ride.
+                            Elite care mobility provides professional non emergency medical transportation for individuals requiring safe, accessible and dependable travel to medical appointments,
+                            rehabilitation visits, hospital discharges and every day destinations.
                         </p>
                     </div>
 
                     <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
                         {[
-                            { icon: Accessibility, title: 'Accessible' },
-                            { icon: HeartPulse, title: 'Care-Focused' },
-                            { icon: CarFront, title: 'Reliable' },
+                            { icon: Accessibility, title: 'Accessible Transportation' },
+                            { icon: HeartPulse, title: 'Compassionate Care' },
+                            { icon: CarFront, title: 'Reliable Service' },
                         ].map((item) => {
                             const Icon = item.icon;
 
