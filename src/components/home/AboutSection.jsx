@@ -3,9 +3,9 @@ import { CheckCircle2 } from 'lucide-react';
 import Container from '../ui/Container';
 
 const points = [
-    'Supportive transportation for seniors and clients with mobility needs',
-    'Clear communication for families coordinating appointments or discharge',
-    'Service focused on comfort, punctuality, and respectful assistance',
+    'Safe and accessible transportation for medical appointments and every day mobility needs',
+    'Clear communication with clients , families and healthcare providers',
+    'Professional service focused on comfort, punctuality and respectful assistance',
 ];
 
 export default function AboutSection() {
@@ -23,13 +23,11 @@ export default function AboutSection() {
                         <h2 className="text-3xl font-semibold tracking-tight text-[#12355B] sm:text-4xl">Transportation Designed Around Safety, Comfort, and Independence</h2>
 
                         <p className="mt-5 leading-8 text-[#6B7280]">
-                            Getting to appointments, returning home after a procedure, or maintaining everyday independence should not be stressful. Elite Care Mobility provides dependable
-                            transportation with a focus on accessibility, communication, and respectful assistance.
+                            Whether traveling to a medical appointment, returning home after a hospital stay or attending ongoing treatments, elite care mobility provides safe, dependable and
+                            compassionate transportation tailored to each clients needs.
                         </p>
 
-                        <p className="mt-5 leading-8 text-[#6B7280]">
-                            Our goal is to help clients and families feel confident knowing transportation is being handled safely, professionally, and with genuine care.
-                        </p>
+                        <p className="mt-5 leading-8 text-[#6B7280]">Our goal is to make every journey comfortable, accessible and stress free.</p>
 
                         <div className="mt-8 space-y-5">
                             {points.map((point) => (

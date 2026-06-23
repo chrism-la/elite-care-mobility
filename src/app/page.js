@@ -8,9 +8,9 @@ export default function HomePage() {
     return (
         <main>
             <Hero />
-            <AboutSection />
-            <AreasServed />
             <ServicesPreview />
+            <AreasServed />
+            <AboutSection />
             <HomeCTA />
         </main>
     );

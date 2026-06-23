@@ -1,20 +1,19 @@
-import Link from 'next/link';
-import { Accessibility, Footprints, HeartPulse, Hospital, MapPinned } from 'lucide-react';
+import { Accessibility, Droplets, Footprints, HeartPulse, Hospital, MapPinned } from 'lucide-react';
 import Container from '../ui/Container';
 import CTAButton from '../ui/CTAButton';
 import { services } from '../../data/services';
 
-const icons = [Accessibility, Footprints, HeartPulse, Hospital, MapPinned];
+const icons = [Accessibility, Droplets, Footprints, HeartPulse, Hospital, MapPinned];
 
 export default function ServicesPreview() {
     return (
-        <section className="bg-[#EFF6FF]/60 pt-4 sm:pt-6 lg:pt-8 pb-12 sm:pb-16 lg:pb-20">
+        <section className="bg-[#EFF6FF]/60 py-16 sm:py-20 lg:py-24">
             <Container size="wide">
-                <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
+                <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
                     <div>
                         <p className="text-sm font-semibold uppercase tracking-wide text-[#F97316]">Services</p>
 
-                        <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#12355B] sm:text-4xl">Transportation options for medical and everyday mobility needs</h2>
+                        <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#12355B] sm:text-4xl">Safe and Reliable Transportation for Every Stage of Care</h2>
                     </div>
 
                     <div className="lg:max-w-2xl">
@@ -22,17 +21,11 @@ export default function ServicesPreview() {
                             Whether the ride is for a medical appointment, hospital discharge, recovery support, or daily mobility, our services are designed to feel clear, dependable, and easy to
                             arrange.
                         </p>
-
-                        <div className="mt-6">
-                            <CTAButton href="/services" variant="secondary">
-                                View All Services
-                            </CTAButton>
-                        </div>
                     </div>
                 </div>
 
-                <div className="mt-12 grid gap-5 sm:grid-cols-2 xl:grid-cols-5">
-                    {services.slice(0, 5).map((service, index) => {
+                <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                    {services.slice(0, 6).map((service, index) => {
                         const Icon = icons[index];
 
                         return (
@@ -47,6 +40,12 @@ export default function ServicesPreview() {
                             </div>
                         );
                     })}
+                </div>
+
+                <div className="mt-10 flex justify-center">
+                    <CTAButton href="/services" variant="secondary">
+                        View All Services
+                    </CTAButton>
                 </div>
             </Container>
         </section>

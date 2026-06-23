@@ -9,10 +9,10 @@ export default function HomeCTA() {
                 <div className="rounded-4xl bg-[#12355B] p-8 sm:p-10 lg:p-14">
                     <div className="grid gap-8 lg:grid-cols-[1.4fr_0.6fr] lg:items-center">
                         <div className="max-w-4xl">
-                            <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">Need safe and reliable transportation for yourself or a loved one?</h2>
+                            <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl"> Ready to schedule safe and reliable transportation ? </h2>
 
                             <p className="mt-5 max-w-3xl text-base leading-8 text-blue-100 sm:text-lg">
-                                Contact Elite Care Mobility to discuss transportation needs, accessibility requirements, pickup details, and availability.
+                                Whether its a medical appointment, hospital discharge, therapy visit or community outing, elite care mobility is here to help.
                             </p>
                         </div>
 

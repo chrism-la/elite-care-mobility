@@ -1,6 +1,5 @@
 import { Accessibility, Footprints, HeartPulse, Hospital, MapPinned } from 'lucide-react';
 import Container from '../ui/Container';
-import CTAButton from '../ui/CTAButton';
 import { services } from '../../data/services';
 
 const icons = [Accessibility, Footprints, HeartPulse, Hospital, MapPinned];
